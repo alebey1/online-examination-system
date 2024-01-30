@@ -16,7 +16,6 @@ $question = $exm->getQuesByNumber($number);
 	if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$process = $pro->processData($_POST);
 	}
-
  ?>
 <div class="main">
 <h1>Question <?php echo $question['quesNo']; ?> of <?php echo $total; ?></h1>
